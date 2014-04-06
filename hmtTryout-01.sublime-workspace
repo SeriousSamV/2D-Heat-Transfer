@@ -1,0 +1,716 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"node",
+				"nodeX"
+			],
+			[
+				"ui",
+				"unsigned"
+			],
+			[
+				"prec",
+				"prec_t"
+			],
+			[
+				"nodes",
+				"nodes"
+			],
+			[
+				"nod",
+				"nodeX"
+			],
+			[
+				"pre",
+				"prec_t"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"pos",
+				"posX"
+			],
+			[
+				"wa",
+				"wantIt"
+			],
+			[
+				"sta",
+				"startTime"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"h",
+				"high_resolution_clock"
+			],
+			[
+				"nde",
+				"nodeY"
+			],
+			[
+				"ndoe",
+				"nodeX"
+			],
+			[
+				"pr",
+				"prec_t"
+			],
+			[
+				"temp",
+				"tempSouth"
+			],
+			[
+				"tem",
+				"tempEast"
+			],
+			[
+				"us",
+				"unsigned"
+			],
+			[
+				"wes",
+				"tempWest"
+			],
+			[
+				"eas",
+				"tempEast"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"le",
+				"lengthX"
+			],
+			[
+				"len",
+				"lengthY"
+			],
+			[
+				"l",
+				"lengthX"
+			],
+			[
+				"da",
+				"datalst"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"h1",
+				"h1	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"S",
+				"Samuel0Paul_UPTR"
+			],
+			[
+				"data",
+				"datalst"
+			],
+			[
+				"SAMUEL",
+				"Samuel0Paul"
+			],
+			[
+				"M",
+				"MindMap"
+			],
+			[
+				"on",
+				"onlyme1"
+			],
+			[
+				"onl",
+				"onlyname_size"
+			],
+			[
+				"n",
+				"noexcept"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"student",
+				"studentEqOp"
+			],
+			[
+				"stude",
+				"studentEqOp"
+			],
+			[
+				"stu_",
+				"stu_ulst"
+			],
+			[
+				"stu",
+				"student"
+			],
+			[
+				"str_",
+				"str_immap"
+			],
+			[
+				"str_i",
+				"str_immap_fndit"
+			],
+			[
+				"str_imm",
+				"str_immap"
+			],
+			[
+				"decl",
+				"decltype"
+			],
+			[
+				"multi",
+				"multimap"
+			],
+			[
+				"ed",
+				"endl"
+			],
+			[
+				"value",
+				"value_type"
+			],
+			[
+				"print",
+				"printSet"
+			],
+			[
+				"inser",
+				"insert"
+			],
+			[
+				"stuse",
+				"stuset_it"
+			],
+			[
+				"stus",
+				"stuset_it"
+			],
+			[
+				"stuma",
+				"stumap_it"
+			],
+			[
+				"var",
+				"varName"
+			],
+			[
+				"unor",
+				"unordered_set"
+			],
+			[
+				"istre",
+				"istream_iterator"
+			],
+			[
+				"ils",
+				"ilst2"
+			],
+			[
+				"fron",
+				"front_inserter"
+			],
+			[
+				"IN",
+				"INSUBL"
+			],
+			[
+				"pus",
+				"push"
+			],
+			[
+				"is",
+				"istk"
+			],
+			[
+				"STACK",
+				"stack"
+			],
+			[
+				"std",
+				"student"
+			],
+			[
+				"st",
+				"student"
+			],
+			[
+				"con",
+				"const_cast"
+			],
+			[
+				"init",
+				"initializer_list"
+			],
+			[
+				"sit",
+				"siter"
+			],
+			[
+				"vst",
+				"vstring_ip"
+			],
+			[
+				"vs",
+				"vstring_ip"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"test_",
+				"test_vector"
+			],
+			[
+				"tes",
+				"testMyVector"
+			],
+			[
+				"read",
+				"readfile	Read File Into Vector"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"it",
+				"iterator"
+			],
+			[
+				"ini",
+				"initializer_list"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"v",
+				"vector	std::vector"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"fil",
+				"file_name"
+			],
+			[
+				"httpS",
+				"httpServerHandler"
+			],
+			[
+				"app",
+				"appListenHandler"
+			],
+			[
+				"file",
+				"file_base_name"
+			],
+			[
+				"htt",
+				"httpServer"
+			],
+			[
+				"Pr",
+				"Println"
+			],
+			[
+				"i",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 6991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main_new.cpp",
+			"settings":
+			{
+				"buffer_size": 3822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/samuel0paul/workspace/cpp/SmplTryout/main.cpp",
+			"settings":
+			{
+				"buffer_size": 7345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/myGPP.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Snippet: template <typename ${1:_InputIter}>"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/samuel0paul/ExxxxXtra/ubuntu oldHome/Downloads/Beginners Guide To Cracking/A Beginners Guid To Cracking.txt",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/main.cpp",
+		"/home/samuel0paul/workspace/cpp/HMT_Tryout_01/bullShit.op",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/samuel0paul/workspace/cpp/HMT_Tryout_01/main.cpp",
+		"/tmp/heated_plate.sh",
+		"/home/samuel0paul/workspace/cpp/AsciiGame/makefile",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/makefile",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/siteStatic/style.css",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/readMe.html",
+		"/host/Users/Public/Videos/movs from stan/Prison Break/Prison Break Season 2/Prison Break (2x11 Bolshoi Booze) XviD-mE.srt",
+		"/host/Users/Public/Videos/movs from stan/Prison Break/Prison Break Season 2/Prison Break (2x04 First Down) XviD-mE.srt",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/header/MindMap.h",
+		"/home/samuel0paul/workspace/cpp/SmplTryout/definition/MindMap.cxx",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/User/myGPP.sublime-build",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/User/gpp11.sublime-build",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/User/nodejs-firefox.sublime-build",
+		"/home/samuel0paul/workspace/cpp/App/AppC++.sublime-build",
+		"/home/samuel0paul/workspace/release/test-infra/uncached-npm-install.sh",
+		"/media/samuel0paul/SONY HARRY/website/mech/facilities.htm",
+		"/home/samuel0paul/.cache/.fr-BaEdSy/18/data/book_sales",
+		"/home/samuel0paul/.bashrc",
+		"/home/samuel0paul/TODO",
+		"/media/samuel0paul/Ext HDD vol II/movies/ENGLISH/A-M/Beneath.the.Darkness.2011/Beneath.the.Darkness.2011.RERip.DVDRip.XviD-OCW.srt",
+		"/home/samuel0paul/workspace/cpp/App/smpl.data",
+		"/home/samuel0paul/workspace/src/github.com/Samuel0Paul/Polycode/BUILD.txt",
+		"/home/samuel0paul/workspace/cpp/App/lib/student.o",
+		"/home/samuel0paul/workspace/cpp/App/lib/smpl.o",
+		"/home/samuel0paul/workspace/cpp/App/bin/main.out",
+		"/home/samuel0paul/workspace/cpp/App/header/sales_data.h",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/samuel0paul/workspace/cpp/App/App.sublime-project",
+		"/home/samuel0paul/workspace/cpp/App/main.cpp",
+		"/home/username/workspace/cpp/App/main.cpp",
+		"/home/samuel0paul/go/src/github.com/Samuel0Paul/exp/exp.go",
+		"/home/samuel0paul/workspace/node/dev/config/mysql.config.json",
+		"/home/samuel0paul/workspace/node/dev/server.js",
+		"/home/samuel0paul/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/samuel0paul/workspace/cpp/App/lib",
+			"/home/samuel0paul/workspace/cpp/App/bin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"diff",
+			"didd",
+			"str_iumap",
+			"4871",
+			"smpl.o",
+			"smpl.so"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5556,
+								5556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main_new.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1879,
+								1879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/samuel0paul/workspace/cpp/SmplTryout/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 2703.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 280.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hmtTryout-01.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
