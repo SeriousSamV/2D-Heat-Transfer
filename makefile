@@ -10,8 +10,8 @@ release = ./bin/main.out
 
 .PHONEY: clean
 
-./bin/main.out: $(files) $(objects) main_new.cpp
-	$(G++) $(libs) $(objects) -o $(release) main_new.cpp
+./bin/main.out: $(files) $(objects) main.cpp
+	$(G++) $(libs) $(objects) -o $(release) main.cpp
 
 ./lib/Nodes.a: $(headers) $(def)/Nodes.cxx
 	$(G++) -o ./lib/Nodes.a -c $(def)/Nodes.cxx
