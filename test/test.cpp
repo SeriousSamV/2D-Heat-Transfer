@@ -54,7 +54,7 @@ class NodesWithoutHeatSrc: public IUnitTest
 public:
 	NodesWithoutHeatSrc(uint64_t nodeX, uint64_t nodeY,
 			T tempNorth, T tempEast, T tempSouth, T tempWest,
-			T epsilon, bool canUseThreadsChoice): _epsilon(epsilon), _nodeY(nodeY), _nodeX(nodeX)
+			T epsilon, bool canUseThreadsChoice): _epsilon(epsilon), _nodeX(nodeX), _nodeY(nodeY)
 	{
 		this->_nodes = HMT::Nodes<prec_t>(nodeX, nodeY);
 		this->_nodes.setWallTemp(tempNorth, tempEast, tempSouth, tempWest);
