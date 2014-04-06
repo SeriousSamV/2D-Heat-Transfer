@@ -43,10 +43,10 @@ int main(int argc, char const *argv[])
 	cout << nodes;
 	cout << "Time taken: " << nodes.getDuration<std::chrono::nanoseconds>().count() << "ns" << endl;*/
 
-	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcTE{20, 20,
+	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcTE{12, 12,
 		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true};
 	testNodesWOHSrcTE.test();
-	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcWTE{20, 20,
+	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcWTE{12, 12,
 		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false};
 	testNodesWOHSrcWTE.test();
 	
