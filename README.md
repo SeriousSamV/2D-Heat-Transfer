@@ -13,7 +13,8 @@ The above postulate stands true if the heat transfer is only through Conduction(
 Implementation
 ==============
 
-
+LICENSE
+=======
 ```license
 The MIT License (MIT)
 
