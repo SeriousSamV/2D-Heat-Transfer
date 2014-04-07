@@ -49,6 +49,15 @@ int main(int argc, char const *argv[])
 	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcWTE{12, 12,
 		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false};
 	testNodesWOHSrcWTE.test();
+
+	std::vector<std::pair<std::pair<uint64_t, uint64_t>, prec_t>> heatSrcs = {
+		make_pair(make_pair(2, 2), 300.0f),
+		make_pair(make_pair(5, 5), -1000.0f)
+	};
+	test::NodesWithHeatSrc<prec_t> testNodesWHSrcTE{12, 12,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false,
+		heatSrcs};
+	testNodesWHSrcTE.test();
 	
 	return 0;
 }
