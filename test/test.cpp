@@ -78,6 +78,7 @@ public:
 		}
 
 		clog << endl
+			 << "using threads: " << this->_nodes.canUseThreads() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
 			 << endl;
 	}
@@ -122,6 +123,7 @@ public:
 		}
 
 		clog << endl
+			 << "using threads: " << this->_nodes.canUseThreads() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
 			 << endl;
 	}
