@@ -58,6 +58,17 @@ std::chrono::nanoseconds Nodes<T>::getDuration(void) const
 }
 
 template<typename T>
+uint64_t Nodes<T>::getItterCount(void) const
+{
+	if (this->_hasCalculated)
+		return this->_itterCnt;
+	else {
+		//!TODO	implement error handling and notification
+		return 0;
+	}
+}
+
+template<typename T>
 void Nodes<T>::testBuffers(void) const
 {
 	for (uint64_t i = 0; i < this->_nodeY; ++i) {

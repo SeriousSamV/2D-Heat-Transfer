@@ -54,6 +54,7 @@ public:
 	bool hasHeatSource(void) const noexcept(true);
 	T getTemp(const uint64_t& posX, const uint64_t& posY) const;
 	std::chrono::nanoseconds getDuration(void) const;
+	uint64_t getItterCount(void) const;
 
 	template<typename T1> friend std::ostream& operator<<(std::ostream&, const Nodes<T1>&);
 
