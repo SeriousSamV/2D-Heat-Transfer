@@ -1,4 +1,6 @@
 language: cpp
+install:
+  - sudo apt-get install g++
 compiler:
   - g++
 script: make
