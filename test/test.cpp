@@ -77,8 +77,9 @@ public:
 			cout << endl;
 		}
 
-		clog << endl
+		clog << std::boolalpha << std::setprecision(4) << std::fixed << endl
 			 << "using threads: " << this->_nodes.canUseThreads() << endl
+			 << "no of itterations: " << this->_nodes.getItterCount() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
 			 << endl
 			 << "################################################################################" << endl
@@ -124,8 +125,9 @@ public:
 			cout << endl;
 		}
 
-		clog << endl
+		clog << std::boolalpha << std::setprecision(4) << std::fixed << endl
 			 << "using threads: " << this->_nodes.canUseThreads() << endl
+			 << "no of itterations: " << this->_nodes.getItterCount() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
 			 << endl
 			 << "################################################################################" << endl
