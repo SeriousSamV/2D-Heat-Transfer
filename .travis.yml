@@ -3,4 +3,4 @@ install:
   - sudo apt-get install g++
 compiler:
   - g++
-script: make
+script: make all

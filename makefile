@@ -8,7 +8,7 @@ G++ = g++ -std=c++0x -Wall -pthread -Wl,--no-as-needed $(Ldir)
 Gdbg = g++ -std=c++0x -Og -Wall -Wshadow -ggdb -pthread -Wl,--no-as-needed $(Ldir)
 release = ./bin/main.out
 
-.PHONEY: clean
+all: ./bin/main.out
 
 ./bin/main.out: $(files) $(objects) main.cpp
 	$(G++) $(libs) $(objects) -o $(release) main.cpp
@@ -21,3 +21,5 @@ release = ./bin/main.out
 
 clean:
 	\rm $(objects) && \rm $(release)
+
+.PHONEY: clean
