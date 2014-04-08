@@ -10,11 +10,12 @@ temp(m, n) approx= (temp(m, n-1) + temp(m, n+1) + temp(m-1, n) + temp(m+1, n)) /
 
 The above postulate stands true if the heat transfer is only through Conduction(i.e. there is no heat transfer through convection or radiation).
 
-Implementation
-==============
+##Implementation
 
-LICENSE
-=======
+{yet to come...}
+
+##LICENSE
+
 ```license
 The MIT License (MIT)
 
