@@ -190,7 +190,7 @@ void Nodes<T>::calculateWThread(const prec_t& epsilon)
 {
 	unsigned int nofCore = std::thread::hardware_concurrency();
 	std::thread threads[nofCore];
-	auto calc = [=] (uint64_t nodeX, uint64_t nodeY, const prec_t epsilon) -> void {
+	auto calc = [&] (uint64_t nodeX, uint64_t nodeY, const prec_t epsilon) -> void {
 		std::mutex myMutex;
 		clog << "thread [id: " << std::this_thread::get_id() << "]" << endl;
 		prec_t diff = epsilon;
