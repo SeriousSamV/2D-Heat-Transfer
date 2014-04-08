@@ -4,8 +4,8 @@ objects = ./lib/Nodes.a ./lib/NodesHelper.a
 Ldir = -L/usr/lib/x86_64-linux-gnu
 libs = -lboost_regex
 def = ./definition/
-G++ = g++ -std=c++1y -Og -Wall -pthread -Wl,--no-as-needed $(Ldir)
-Gdbg = g++ -std=c++1y -Og -Wall -Wshadow -ggdb -pthread -Wl,--no-as-needed $(Ldir)
+G++ = g++ -std=c++11 -Og -Wall -pthread -Wl,--no-as-needed $(Ldir)
+Gdbg = g++ -std=c++11 -Og -Wall -Wshadow -ggdb -pthread -Wl,--no-as-needed $(Ldir)
 release = ./bin/main.out
 
 .PHONEY: clean
