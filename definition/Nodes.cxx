@@ -153,7 +153,7 @@ void Nodes<T>::canUseThreads(const bool choice) noexcept(true)
 }
 
 template<typename T>
-bool Nodes<T>::canUseThreads(void) noexcept(true)
+bool Nodes<T>::canUseThreads(void) const noexcept(true)
 {
 	return this->_canUseThreads;
 }
@@ -257,7 +257,6 @@ T Nodes<T>::getTemp(const uint64_t& posX, const uint64_t& posY) const
 template<typename T>
 std::ostream& operator<<(std::ostream& os, const Nodes<T>& obj)
 {
-	os << endl;
 	for (const auto& i : obj._nodes) {
 		for (const auto& node : i)
 			os << node.first << ", ";

@@ -49,7 +49,7 @@ public:
 	void setWallTemp(const T& northTemp, const T& eastTemp, const T& southTemp, const T& westTemp);
 	void setHeatSource(const uint64_t& posX, const uint64_t& posY, const T& temp);
 	void canUseThreads(const bool choice) noexcept(true);
-	bool canUseThreads(void) noexcept(true);
+	bool canUseThreads(void) const noexcept(true);
 	void calculate(const prec_t epsilon);
 	bool hasHeatSource(void) const noexcept(true);
 	T getTemp(const uint64_t& posX, const uint64_t& posY) const;
