@@ -58,6 +58,10 @@ int main(int argc, char const *argv[])
 		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false,
 		heatSrcs};
 	testNodesWHSrcTE.test();
+	test::NodesWithHeatSrc<prec_t> testNodesWHSrcWTE{12, 12,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true,
+		heatSrcs};
+	testNodesWHSrcWTE.test();
 	
 	return 0;
 }
