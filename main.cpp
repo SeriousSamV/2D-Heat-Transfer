@@ -27,6 +27,29 @@ using std::make_pair;
 
 using prec_t = long double;
 
+void runTest(void)
+{
+	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcTE{12, 30,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true};
+	testNodesWOHSrcTE.test();
+	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcWTE{12, 30,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false};
+	testNodesWOHSrcWTE.test();
+
+	std::vector<std::pair<std::pair<uint64_t, uint64_t>, prec_t>> heatSrcs = {
+		make_pair(make_pair(2, 2), 300.0f),
+		make_pair(make_pair(5, 5), -1000.0f)
+	};
+	test::NodesWithHeatSrc<prec_t> testNodesWHSrcTE{12, 30,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false,
+		heatSrcs};
+	testNodesWHSrcTE.test();
+	test::NodesWithHeatSrc<prec_t> testNodesWHSrcWTE{12, 30,
+		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true,
+		heatSrcs};
+	testNodesWHSrcWTE.test();
+}
+
 int main(int argc, char const *argv[])
 {
 	cout << std::nounitbuf;
@@ -43,25 +66,7 @@ int main(int argc, char const *argv[])
 	cout << nodes;
 	cout << "Time taken: " << nodes.getDuration<std::chrono::nanoseconds>().count() << "ns" << endl;*/
 
-	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcTE{12, 12,
-		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true};
-	testNodesWOHSrcTE.test();
-	test::NodesWithoutHeatSrc<prec_t> testNodesWOHSrcWTE{12, 12,
-		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false};
-	testNodesWOHSrcWTE.test();
-
-	std::vector<std::pair<std::pair<uint64_t, uint64_t>, prec_t>> heatSrcs = {
-		make_pair(make_pair(2, 2), 300.0f),
-		make_pair(make_pair(5, 5), -1000.0f)
-	};
-	test::NodesWithHeatSrc<prec_t> testNodesWHSrcTE{12, 12,
-		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, false,
-		heatSrcs};
-	testNodesWHSrcTE.test();
-	test::NodesWithHeatSrc<prec_t> testNodesWHSrcWTE{12, 12,
-		500.0f, 100.0f, 100.0f, 100.0f, 0.0000001f, true,
-		heatSrcs};
-	testNodesWHSrcWTE.test();
+	runTest();
 	
 	return 0;
 }
