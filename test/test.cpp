@@ -69,6 +69,7 @@ public:
 	{
 		this->_nodes.calculate(this->_epsilon);
 
+		clog << std::boolalpha << std::setprecision(4) << std::fixed;
 		clog << "After calculation: " << endl;
 		for (uint64_t i = 0; i < this->_nodeX; ++i) {
 			for (uint64_t j = 0; j < this->_nodeY; ++j) {
@@ -77,7 +78,7 @@ public:
 			cout << endl;
 		}
 
-		clog << std::boolalpha << std::setprecision(4) << std::fixed << endl
+		clog << endl
 			 << "using threads: " << this->_nodes.canUseThreads() << endl
 			 << "no of itterations: " << this->_nodes.getItterCount() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
@@ -117,6 +118,7 @@ public:
 	{
 		this->_nodes.calculate(this->_epsilon);
 
+		clog << std::boolalpha << std::setprecision(4) << std::fixed;
 		clog << "After calculation: " << endl;
 		for (uint64_t i = 0; i < this->_nodeX; ++i) {
 			for (uint64_t j = 0; j < this->_nodeY; ++j) {
@@ -125,7 +127,7 @@ public:
 			cout << endl;
 		}
 
-		clog << std::boolalpha << std::setprecision(4) << std::fixed << endl
+		clog << endl
 			 << "using threads: " << this->_nodes.canUseThreads() << endl
 			 << "no of itterations: " << this->_nodes.getItterCount() << endl
 			 << "time taken for [" << typeid(*this).name() << "]: " << this->_nodes.getDuration().count() << "ns"
